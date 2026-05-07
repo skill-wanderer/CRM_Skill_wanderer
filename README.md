@@ -7,16 +7,7 @@ This project focuses on creating a production-style SaaS dashboard experience wi
 [![Open Issues](https://img.shields.io/github/issues/logicalaryan/CRM-Frontend)](https://github.com/logicalaryan/CRM-Frontend/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/logicalaryan/CRM-Frontend/pulls)
 
-> **Production-Style SaaS Dashboard for Lead Management, Analytics, Status Tracking, and More**
 
----
-
-## 🚀 Live Demo
-
-**Experience the Project:**
-[![Demo](https://img.shields.io/badge/try-demo-brightgreen)](https://your-demo-url.com) <!-- Replace with your deployed demo URL -->
-
-![CRM-Frontend Preview](docs/demo-screenshot.gif) <!-- Replace with actual GIF or image -->
 
 ---
 
@@ -89,7 +80,7 @@ Check out [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 
 
 ---
 
