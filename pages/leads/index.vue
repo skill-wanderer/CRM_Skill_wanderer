@@ -11,7 +11,7 @@ import { useLeadsStore } from '~/stores/leads';
 
 const store = useLeadsStore();
 
-useHead({ title: 'Leads - CRM Enterprise' });
+useHead({ title: 'Leads - SW CRM' });
 
 onMounted(() => {
   store.fetchLeads();

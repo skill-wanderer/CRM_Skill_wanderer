@@ -7,7 +7,7 @@ definePageMeta({
   middleware: ['guest']
 });
 
-useHead({ title: 'Forgot Password - CRM Enterprise' });
+useHead({ title: 'Forgot Password - SW CRM' });
 
 const email = ref('');
 const isLoading = ref(false);

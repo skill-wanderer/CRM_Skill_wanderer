@@ -8,7 +8,7 @@ definePageMeta({
   middleware: ['guest']
 });
 
-useHead({ title: 'Sign Up - CRM Enterprise' });
+useHead({ title: 'Sign Up - SW CRM' });
 
 const authStore = useAuthStore();
 

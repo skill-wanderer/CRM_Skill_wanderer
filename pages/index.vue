@@ -7,7 +7,7 @@ import { useLeadsStore } from '~/stores/leads';
 const store = useLeadsStore();
 
 // Dashboard Page
-useHead({ title: 'Dashboard - CRM Enterprise' });
+useHead({ title: 'Dashboard - SW CRM' });
 
 onMounted(() => {
   store.fetchLeads();
@@ -16,7 +16,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <h1 class="text-2xl font-bold text-slate-900 mb-6">Command Center</h1>
+    <h1 class="text-2xl font-bold text-slate-900 mb-6">Guild Dashboard</h1>
     
     <DashboardAlerts />
 

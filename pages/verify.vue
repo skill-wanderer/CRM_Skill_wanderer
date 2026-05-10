@@ -7,7 +7,7 @@ definePageMeta({
   middleware: ['guest']
 });
 
-useHead({ title: 'Verify Email - CRM Enterprise' });
+useHead({ title: 'Verify Email - SW CRM' });
 
 const otpFields = ref<string[]>(['', '', '', '', '', '']);
 const inputRefs = ref<HTMLInputElement[]>([]);

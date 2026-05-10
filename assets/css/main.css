@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,8 +7,10 @@
 @layer base {
   html {
     font-size: 18px;
+    font-family: 'Outfit', sans-serif;
   }
   body {
     @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: 'Outfit', sans-serif;
   }
 }

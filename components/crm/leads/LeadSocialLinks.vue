@@ -144,8 +144,8 @@ const saveEdit = async (key: string) => {
               
               <!-- View Mode -->
               <div v-else class="flex items-center justify-between gap-3">
-                <div v-if="lead[platform.key as keyof Lead]" class="truncate">
-                  <a :href="lead[platform.key as keyof Lead]" target="_blank" rel="noopener noreferrer" class="text-sm text-indigo-600 hover:text-indigo-800 hover:underline truncate">
+                <div v-if="(lead[platform.key as keyof Lead] as string)" class="truncate">
+                  <a :href="(lead[platform.key as keyof Lead] as string)" target="_blank" rel="noopener noreferrer" class="text-sm text-indigo-600 hover:text-indigo-800 hover:underline truncate">
                     {{ lead[platform.key as keyof Lead] }}
                   </a>
                 </div>

@@ -6,7 +6,7 @@ import ContactProfile from '~/components/crm/contacts/ContactProfile.vue';
 import ContactDetailsPanel from '~/components/crm/contacts/ContactDetailsPanel.vue';
 
 // Page Title
-useHead({ title: 'Contacts - CRM Enterprise' });
+useHead({ title: 'Contacts - SW CRM' });
 
 const contactsStore = useContactsStore();
 

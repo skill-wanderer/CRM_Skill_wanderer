@@ -7,6 +7,7 @@ export interface Tag {
   color: string; // Tailwind color identifier
   category: TagCategory;
   description?: string;
+  usageCount?: number;
 }
 
 export interface TagAnalytics {
