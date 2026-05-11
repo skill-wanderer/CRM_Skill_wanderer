@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   nitro: {
-    preset: 'cloudflare_module'
+    preset: 'cloudflare_module',
+    alias: {
+      '__STATIC_CONTENT_MANIFEST': 'virtual:static-manifest'
+    },
+    virtual: {
+      'static-manifest': 'export default {}'
+    }
   },
   modules: [
     '@nuxtjs/tailwindcss',
