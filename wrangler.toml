@@ -1,6 +1,12 @@
 name = "crm-skill-wanderer"
-main = ".output/server/index.mjs"
-compatibility_date = "2024-01-01"
+main = "./.output/server/index.mjs"
+compatibility_date = "2024-11-01"
 compatibility_flags = ["nodejs_compat"]
 
-assets = { directory = ".output/public" }
+# This block solves the "No such module __STATIC_CONTENT_MANIFEST" error
+[assets]
+directory = "./.output/public"
+binding = "ASSETS"
+
+[observability]
+enabled = true
