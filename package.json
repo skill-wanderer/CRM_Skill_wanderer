@@ -11,7 +11,6 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
     "preview": "npm run build && npx wrangler dev",
     "deploy": "npm run build && npx wrangler deploy",
     "postinstall": "nuxt prepare"
@@ -28,7 +27,8 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "wrangler": "^4.92.0"
   },
   "overrides": {
     "commander": "13.1.0"

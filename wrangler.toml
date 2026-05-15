@@ -1,6 +1,8 @@
 name = "crm-skill-wanderer"
-main = ".output/server/index.mjs"
+main = "./.output/server/index.mjs"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
 
-assets = { directory = ".output/public" }
+[assets]
+directory = "./.output/public"
+binding = "ASSETS"
