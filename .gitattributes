@@ -1,0 +1,20 @@
+# Treat Vue files as Vue (GitHub does not have a "Nuxt" language specifically, it uses Vue)
+*.vue linguist-language=Vue
+
+# Treat TS files as TypeScript
+*.ts linguist-language=TypeScript
+
+# If you ONLY want "TypeScript" to show up and hide "Vue" entirely, uncomment the line below and comment out the Vue line above:
+# *.vue linguist-language=TypeScript
+
+# Ignore configuration and generated files from GitHub language statistics
+*.json linguist-generated
+*.md linguist-generated
+*.py linguist-generated
+package-lock.json linguist-generated
+
+# Explicitly ignore build output and caches from language stats just in case they are accidentally committed
+.wrangler/** linguist-vendored
+dist/** linguist-vendored
+.output/** linguist-vendored
+.nuxt/** linguist-vendored
